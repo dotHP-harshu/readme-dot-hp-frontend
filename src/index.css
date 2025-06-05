@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: heading;
+  src: url("/fonts/IBMPlexMono-Regular.ttf");
+}
+@font-face {
+  font-family: paragraph;
+  src: url("fonts/FiraCode-Retina.otf");
+}
+@font-face {
+  font-family: subHeading;
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: boxText;
+  src: url("fonts/IBMPlexMono-Regular.ttf");
+}
+
+@theme {
+  --color-primary-color: #12803a;
+  --color-secondary-color: #bbf7d0;
+  --color-text-main: #1c1917;
+  --color-text-muted: #7d8a9d;
+  --color-bg-color: #f0fdf4;
+  --font-heading: heading;
+  --font-sub-heading: subHeading;
+  --font-box-text: boxText;
+}
+
+body {
+  width: 100%;
+  background-color: #f0fdf4;
+  color: #1c1917;
+  font-family: paragraph;
+}
